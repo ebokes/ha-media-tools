@@ -27,11 +27,11 @@ const HomePage = () => {
   return (
     <div>
       <div className="min-h-[80vh] flex flex-col justify-center items-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Media Tools</h1>
+        <h1 className="text-4xl font-bold mb-4">Welcome to Media Toolkit</h1>
         <p className="text-lg text-blue-200 mb-8">
           Enhance your media production with our powerful tools
         </p>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 max-w-[900px]">
           {toolsData.map(({ id, title, desc, path }: ToolData) => (
             <div key={id} className="bg-white p-6 rounded-lg shadow-md">
               <h2 className="text-xl font-semibold mb-2 text-blue-700">

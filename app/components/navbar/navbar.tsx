@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="relative">
       <div className="flex justify-between items-center max-w-[1280px] mx-auto py-5 w-[90%]">
         <Link href={"/"}>
-          <div>Media Tools</div>
+          <div>Media Toolkit</div>
         </Link>
         <div className="block md:hidden cursor-pointer" onClick={toggleMenu}>
           <MdMenu className="text-2xl" />
