@@ -4,7 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <Wrapper>
-      <h1 className="text-center text-3xl font-bold">Streaming</h1>
+      <h1 className="text-center text-3xl font-bold">Designer</h1>
       <div className="flex justify-center">
         {/* <iframe
           width="560"
